@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css" />
+    <style>
+      .carousel-caption {
+        color: rgba(0, 0, 0, 0.809);
+      }
+      .leg_branc {
+        color: rgba(255, 255, 255, 0.809);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div
+        id="carousel-exemplo"
+        class="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-interval="3000" class="carousel-item active">
+            <img class="d-block w-100" src="/src/dbz.jpg" />
+            <div class="carousel-caption">
+              <h2>Dragon Ball Z</h2>
+            </div>
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="d-block w-100" src="/src/one_piece.jpg" />
+            <div class="carousel-caption leg_branc">
+              <h2>One Piece</h2>
+            </div>
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img class="d-block w-100" src="/src/tokyo_ghoul.jpg" />
+            <div class="carousel-caption leg_branc">
+              <h2>Tokyo Ghoul</h2>
+            </div>
+          </div>
+        </div>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-exemplo"
+          data-bs-slide="next"
+          class="carousel-control-next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            class="active"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-exemplo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>Notícias</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
+          <div class="card text-bg-dark">
+            <div class="card-header">ONE PIECE</div>
+            <img src="/src/onePiece.jpg" />
+            <div class="card-body">
+              <h4 class="card-title pb-3">
+                LIVE-ACTION NÃO SERÁ LANÇADO SEM A APROVAÇÃO DO AUTOR
+              </h4>
+              <h5 class="card-subtitle p-2">
+                Até Oda não ficou satisfeito com a adaptação
+              </h5>
+              <p class="card-text">
+                À medida que nos aproximamos do meio de 2023, a conta oficial do
+                Twitter para a franquia One Piece deu aos fãs esperança para a
+                próxima adaptação live-action com uma mensagem do autor,
+                Eiichiro Oda. A nota, que está no pergaminho de assinatura da
+                série com pequenos rabiscos do próprio Oda, diz que toda a
+                equipe está 'ardendo de paixão' pela série, que, embora marcada
+                para uma estreia em 2023, 'não será lançada até que [Oda] esteja
+                satisfeito.'
+              </p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
+          <div class="card text-bg-dark">
+            <div class="card-header">GUNDAM</div>
+            <img src="/src/gundam.png" />
+            <div class="card-body">
+              <h4 class="card-title pb-3">
+                THE WITCH FROM MERCURY TERÁ UM EPISÓDIO RECAP NO PRÓXIMO 14 DE
+                MAIO
+              </h4>
+              <h5 class="card-subtitle p-2">
+                O especial será exibido no lugar do sexto episódio
+              </h5>
+              <p class="card-text">
+                O site oficial do anime Mobile Suit Gundam: The Witch from
+                Mercury revelou que a segunda temporada do anime irá ao ar um
+                recap especial em 14 de maio, em vez de seu sexto episódio (o
+                18º episódio geral da série). O episódio de recapitulação fará
+                uma retrospectiva dos eventos dos cinco primeiros episódios da
+                segunda temporada (episódios 13-17 no geral da série). O quinto
+                episódio vai ao ar neste domingo, conforme programado.
+              </p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 pb-3">
+          <div class="card text-bg-dark">
+            <div class="card-header">OVERTAKE</div>
+            <img src="/src/OVERTAKE.jpg" />
+            <div class="card-body">
+              <h4 class="card-title pb-3">
+                É O NOVO ANIME ORIGINAL DE CORRIDAS DE CARROS DA KADOKAWA
+              </h4>
+              <h5 class="card-subtitle p-2">A obra chega em outubro</h5>
+              <p class="card-text">
+                No site oficial do próximo anime original dos estúdios Kadokawa
+                e TROYCA, Overtake!, foi revelado um novo vídeo promocional para
+                o projeto. O comunicado confirmou que a estreia está marcada
+                para outubro no Japão e confirma os detalhes da produção.
+              </p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
